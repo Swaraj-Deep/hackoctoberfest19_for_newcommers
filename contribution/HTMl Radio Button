@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Forms</title>
+</head>
+<body>
+
+<h1>Getting Started with HTML Forms</h1>
+<h5>HTML Forms</h5>
+<p> This is an example of very basic HTML Form. Here you can enter the data in the text fields and then you can process it in some javascript or you can also send it to your server using GET or POST Method of PHP. </p>
+<p>Enter your details here...</p>
+</br>
+<form>
+  First Name:<br>
+  <input type="text" name="firstname"><br>
+  Last Name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Prefer Not to Say
+</form>
+</body>
+</html>
